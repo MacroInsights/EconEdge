@@ -315,13 +315,17 @@
       gap: 22px;
       align-items: flex-start;
     }
-    .feature-photo {
+    .feature-figure {
       flex: 0 0 200px;
       width: 200px;
+    }
+    .feature-photo {
+      width: 100%;
       height: auto;
       display: block;
       border-left: 4px solid #FDB927;
     }
+    .feature-figure .chair-sig { margin-top: 8px; }
     .feature-kicker {
       font-size: 9px;
       letter-spacing: 2px;
@@ -803,7 +807,8 @@
       .chair-photo { float: none; width: 100%; height: auto; border-radius: 0; margin: 0 0 16px 0; max-height: 240px; object-fit: contain; background: #ffffff; }
 
       .feature-row { flex-direction: column; }
-      .feature-photo { width: 100%; flex: none; max-height: 260px; object-fit: contain; background: #f7f5ef; }
+      .feature-figure { width: 100%; flex: none; }
+      .feature-photo { max-height: 260px; object-fit: contain; background: #f7f5ef; }
       .stat-value { font-size: 20px; }
 
       .research-grid, .people-grid, .involve-grid { grid-template-columns: 1fr; }
@@ -918,7 +923,7 @@
           Welcome to the first issue of <strong>The Econ Edge</strong>, a newsletter written for you: the alumni of the Department of Economics at North Carolina A&amp;T. We timed it for a homecoming like no other: the <a href="https://www.ncat.edu/homecoming/" target="_blank" rel="noopener noreferrer">100th Greatest Homecoming On Earth</a>. Whether you crossed the stage last spring or decades ago, you are part of a century of Aggie Pride, and part of this department's story.
         </p>
         <p>
-          And what a story this year has been. Our faculty earned national and international awards, took economics to audiences on public radio, local television, and in The Wall Street Journal, and brought in more than $2 million in grant-funded research that puts our undergraduates to work on real problems. One of our majors became A&amp;T's first-ever Truman Scholar, and another was named an Obama Foundation Voyager Scholar. And every month, the department publishes the Piedmont Triad Economic Activity Index. You'll find it at the top of every issue.
+          And what a story this year has been. Our faculty earned national and international awards, took economics to audiences on public radio, local television, and in The Wall Street Journal, and brought in more than $2 million in grant-funded research that puts our undergraduates to work on real problems. One of our students became A&amp;T's first-ever Truman Scholar, and another was named an Obama Foundation Voyager Scholar. And every month, the department publishes the Piedmont Triad Economic Activity Index. You'll find it at the top of every issue.
         </p>
         <p>
           The Econ Edge will arrive three times a year: at Homecoming, in March, and in August. We want it to be as much about you as about us, so tell us where life has taken you. See you on campus and <strong>Aggie Pride!</strong>
@@ -936,7 +941,13 @@
   <div class="section section-tinted section-border">
     <div class="section-label">Feature</div>
     <div class="feature-row">
-      <img src="IMAGES/2026-homecoming/cephas-naanwaab-cropped.jpg" alt="Dr. Cephas Naanwaab" class="feature-photo" />
+      <div class="feature-figure">
+        <img src="IMAGES/2026-homecoming/cephas-naanwaab-cropped.jpg" alt="Dr. Cephas Naanwaab" class="feature-photo" />
+        <div class="chair-sig">
+          Dr. Cephas Naanwaab<br/>
+          <span class="title">Associate Professor<br/><a href="https://www.ncat.edu/cobe/academic-departments/economics/index.php" target="_blank" rel="noopener noreferrer">Department of Economics</a></span>
+        </div>
+      </div>
       <div>
         <div class="feature-kicker">GHOE 100 · By the Numbers</div>
         <div class="feature-headline">What Is Homecoming Worth? An Aggie Economist Runs the Numbers</div>
@@ -970,9 +981,8 @@
           <img src="IMAGES/2026-homecoming/scott-simkins.jpg" alt="Dr. Scott Simkins" />
         </div>
         <div class="research-text-col">
-          <div class="research-author">Drs. Li, Kurkalova, Simkins &amp; Morgan</div>
           <div class="research-title">A National Award for Opening Research to Undergraduates</div>
-          <div class="research-blurb">The Agricultural &amp; Applied Economics Association gave its Outstanding Applied Economics Teaching Resources Article Award to "Undergraduate Research Opportunities in an Applied Economics Program: Expanding Pathways for Economics Majors (and Beyond) at Land-Grant HBCUs," by economists Huan Li, Luba Kurkalova and Scott Simkins with Shona Morgan (Marketing &amp; Supply Chain).</div>
+          <div class="research-blurb"><strong>Drs. Huan Li, Luba Kurkalova and Scott Simkins</strong>, with Shona Morgan (Marketing &amp; Supply Chain), won the Agricultural &amp; Applied Economics Association's Outstanding Applied Economics Teaching Resources Article Award for "Undergraduate Research Opportunities in an Applied Economics Program: Expanding Pathways for Economics Majors (and Beyond) at Land-Grant HBCUs."</div>
           <div class="research-journal"><a href="https://www.aaea.org/about-aaea/awards-and-honors/aaea-annual-awards/aaea-annual-award-winners/2026-aaea-annual-award-winners" target="_blank" rel="noopener noreferrer">AAEA 2026 Annual Awards &rarr;</a></div>
         </div>
       </div>
@@ -982,9 +992,8 @@
           <img src="IMAGES/2026-homecoming/john%20ng_ombe.jpg" alt="Dr. John Ng'ombe" />
         </div>
         <div class="research-text-col">
-          <div class="research-author">Dr. John Ng'ombe</div>
           <div class="research-title">First Prize in South Africa, Capping a Prolific Year</div>
-          <div class="research-blurb">"Trading Below the Frontier: Export Efficiency and Potential in Namibia's Live Goat Trade," which he co-authored with K. Kalimbwe, N. M. Abdullahi and S. Mbai, won First Prize for Best Contributed Paper at the 2026 Agricultural Economics Association of South Africa conference. It caps a year of peer-reviewed work in <em>Energy Economics</em>, <em>Review of Development Economics</em> and more, on food security and climate across Sub-Saharan Africa.</div>
+          <div class="research-blurb"><strong>Dr. John Ng'ombe</strong>'s "Trading Below the Frontier: Export Efficiency and Potential in Namibia's Live Goat Trade," co-authored with K. Kalimbwe, N. M. Abdullahi and S. Mbai, won First Prize for Best Contributed Paper at the 2026 Agricultural Economics Association of South Africa conference. It caps a year of peer-reviewed work in <em>Energy Economics</em>, <em>Review of Development Economics</em> and more, on food security and climate across Sub-Saharan Africa.</div>
           <div class="research-journal">AEASA 2026 · Limpopo, South Africa<br/><a href="https://profiles.ncat.edu/en/persons/john-ngombe/" target="_blank" rel="noopener noreferrer">View faculty profile &rarr;</a></div>
         </div>
       </div>
@@ -994,9 +1003,8 @@
           <img src="IMAGES/2026-homecoming/kurkalova-nasa.jpg" alt="Dr. Luba Kurkalova" />
         </div>
         <div class="research-text-col">
-          <div class="research-author">Dr. Luba Kurkalova</div>
           <div class="research-title">$2M+ in Research That Puts Students to Work</div>
-          <div class="research-blurb">Co-leading a NASA-funded coastal risk assessment and a U.S. Department of Energy project on methane-based technologies for coastal North Carolina. Economics students build real skills along the way: ArcGIS and geospatial analysis on one project, interactive Power BI site-selection tools on the other.</div>
+          <div class="research-blurb"><strong>Dr. Luba Kurkalova</strong> is co-leading a NASA-funded coastal risk assessment and a U.S. Department of Energy project on methane-based technologies for coastal North Carolina. Economics students build real skills along the way: ArcGIS and geospatial analysis on one project, interactive Power BI site-selection tools on the other.</div>
           <div class="research-journal"><a href="https://www.ncat.edu/news/2026/04/coastal-research.php" target="_blank" rel="noopener noreferrer">NC A&amp;T Coastal Resilience Research &rarr;</a></div>
         </div>
       </div>
@@ -1006,9 +1014,8 @@
           <img src="IMAGES/2026-homecoming/simkins-ai-release.png" alt="Dr. Scott Simkins on Marketplace" />
         </div>
         <div class="research-text-col">
-          <div class="research-author">Dr. Simkins &amp; Dr. Takumah</div>
           <div class="research-title">AI in the Econ Classroom, from Marketplace to Minnesota</div>
-          <div class="research-blurb">Dr. Scott Simkins joined Kai Ryssdal on <em>Marketplace</em> to discuss how AI is changing the teaching of macroeconomics. He and Dr. Wisdom Takumah also won a 2025 NC A&amp;T–University of Minnesota Research Partnership Award to study how AI and open educational resources can improve economics education. This fall, Dr. Takumah spoke at Minnesota's Humphrey School on how AI and machine learning are reshaping macroeconomic research.</div>
+          <div class="research-blurb"><strong>Dr. Scott Simkins</strong> joined Kai Ryssdal on <em>Marketplace</em> to discuss how AI is changing the teaching of macroeconomics. He and <strong>Dr. Wisdom Takumah</strong> also won a 2025 NC A&amp;T–University of Minnesota Research Partnership Award to study how AI and open educational resources can improve economics education. This fall, Dr. Takumah spoke at Minnesota's Humphrey School on how AI and machine learning are reshaping macroeconomic research.</div>
           <div class="research-journal"><a href="https://www.marketplace.org/story/2025/12/19/in-one-econ-classroom-ai-and-macroeconomics-strike-a-chord" target="_blank" rel="noopener noreferrer">Listen on Marketplace &rarr;</a></div>
         </div>
       </div>
@@ -1018,9 +1025,8 @@
           <img src="IMAGES/2026-homecoming/eduardo-minuci-2026.jpg" alt="Dr. Eduardo Minuci" />
         </div>
         <div class="research-text-col">
-          <div class="research-author">Dr. Eduardo Minuci</div>
           <div class="research-title">From Brazil's National Team to the Econ Classroom</div>
-          <div class="research-blurb">The son of Brazilian Olympian Fernando Minuci, Dr. Minuci played for Brazil's national basketball team before turning to economics. Today he uses the game to teach data analytics, risk and incentives, and he studies it too, publishing in <em>Contemporary Economic Policy</em> on whether NBA teams should "trust the process" of tanking.</div>
+          <div class="research-blurb"><strong>Dr. Eduardo Minuci</strong>, the son of Brazilian Olympian Fernando Minuci, played for Brazil's national basketball team before turning to economics. Today he uses the game to teach data analytics, risk and incentives, and he studies it too, publishing in <em>Contemporary Economic Policy</em> on whether NBA teams should "trust the process" of tanking.</div>
           <div class="research-journal"><a href="https://www.ncat.edu/news/2026/08/minuci-btl.php" target="_blank" rel="noopener noreferrer">Beyond the Lab, NC A&amp;T News &rarr;</a></div>
         </div>
       </div>
@@ -1030,9 +1036,8 @@
           <img src="IMAGES/2026-homecoming/hal-snarr.jpg" alt="Dr. Hal Snarr" />
         </div>
         <div class="research-text-col">
-          <div class="research-author">Dr. Hal Snarr</div>
           <div class="research-title">Teaching the Teachers: Personal Finance for NC Classrooms</div>
-          <div class="research-blurb">For the second year in a row, the department hosted the North Carolina Council on Economic Education's 40-hour Economics and Personal Finance Institute, July 20–24. Under Dr. Snarr's leadership, teachers from across the state learned from presenters at the Federal Reserve Bank of Richmond, the SEC, VISA, Next Gen Personal Finance and Marginal Revolution University.</div>
+          <div class="research-blurb"><strong>Dr. Hal Snarr</strong> led the department's second straight year hosting the North Carolina Council on Economic Education's 40-hour Economics and Personal Finance Institute, July 20–24. Teachers from across the state learned from presenters at the Federal Reserve Bank of Richmond, the SEC, VISA, Next Gen Personal Finance and Marginal Revolution University.</div>
           <div class="research-journal"><a href="https://www.ncat.edu/news/2026/07/economics-institute.php" target="_blank" rel="noopener noreferrer">NC A&amp;T News &rarr;</a></div>
         </div>
       </div>
@@ -1042,9 +1047,8 @@
           <img src="IMAGES/2026-homecoming/alfredo%20romero.jpg" alt="Dr. Alfredo Romero" />
         </div>
         <div class="research-text-col">
-          <div class="research-author">Dr. Alfredo Romero</div>
           <div class="research-title">The Wall Street Journal, Twice</div>
-          <div class="research-blurb">The chair was quoted in The Wall Street Journal in May, on gas prices outpacing wage growth, and again in July, on what prolonged job searches mean for workers. He was also selected for the national Economic Speakers Bureau, a network of former senior Administration officials, researchers and academics.</div>
+          <div class="research-blurb"><strong>Dr. Alfredo Romero</strong> was quoted in The Wall Street Journal in May, on gas prices outpacing wage growth, and again in July, on what prolonged job searches mean for workers. He was also selected for the national Economic Speakers Bureau, a network of former senior Administration officials, researchers and academics.</div>
           <div class="research-journal">
             <a href="https://www.wsj.com/economy/jobs/inflation-wages-gas-prices-d16d78c0" target="_blank" rel="noopener noreferrer">WSJ, May 2026 &rarr;</a><br/>
             <a href="https://www.wsj.com/economy/jobs/unemployment-long-term-job-market-629199f9" target="_blank" rel="noopener noreferrer">WSJ, July 2026 &rarr;</a>
@@ -1057,9 +1061,8 @@
           <img src="IMAGES/2026-homecoming/richmond-fed-trip.jpg" alt="Aggie economics students at the Federal Reserve Bank of Richmond's Exploring Economics conference" />
         </div>
         <div class="research-text-col">
-          <div class="research-author">Students on the Road</div>
           <div class="research-title">From Classroom to Career at the Richmond Fed</div>
-          <div class="research-blurb">On September 25, economics students traveled to the Federal Reserve Bank of Richmond for the 2026 Exploring Economics conference, "From Classroom to Career," held with Virginia Commonwealth University and the University of Richmond. They spent the day with economists from the Richmond Fed, the World Bank and leading universities, learning how an economics degree turns into a career.</div>
+          <div class="research-blurb"><strong>Economics students</strong> traveled on September 25 to the Federal Reserve Bank of Richmond for the 2026 Exploring Economics conference, "From Classroom to Career," held with Virginia Commonwealth University and the University of Richmond. They spent the day with economists from the Richmond Fed, the World Bank and leading universities, learning how an economics degree turns into a career.</div>
           <div class="research-journal">Federal Reserve Bank of Richmond · September 25, 2026</div>
         </div>
       </div>
@@ -1074,21 +1077,18 @@
 
       <div class="person-card">
         <img src="IMAGES/2026-homecoming/olu%20rouse.jpg" alt="Olu Rouse" class="person-photo" />
-        <div class="person-tag">Student · Economics &amp; Political Science</div>
         <div class="person-name">Olu Rouse</div>
         <div class="person-blurb">Named <a href="https://www.ncat.edu/news/2026/04/rouse-2026-truman-scholar.php" target="_blank" rel="noopener noreferrer">NC A&amp;T's first-ever Truman Scholar</a>, one of 55 chosen nationally from 781 candidates. The Raleigh native researches the impact of reparations with the department and plans to pursue a Ph.D. in public policy and economics, with the goal of shaping fair, data-driven state fiscal policy.</div>
       </div>
 
       <div class="person-card">
         <img src="IMAGES/2026-homecoming/jeremiah%20west.jpg" alt="Jeremiah West" class="person-photo" />
-        <div class="person-tag">Student · Economics</div>
         <div class="person-name">Jeremiah West</div>
         <div class="person-blurb">Named a 2026–2028 <a href="https://obama.org/programs/voyager-scholarship/2026-2028/jeremiah-west/" target="_blank" rel="noopener noreferrer">Obama Foundation Voyager Scholar</a>. The Charlotte native co-founded Champions of Change, which serves homeless and foster families, and is focused on making housing affordable for working families.</div>
       </div>
 
       <div class="person-card">
         <img src="IMAGES/2026-homecoming/gabby%20folson.jpg" alt="Gabby Folson" class="person-photo" />
-        <div class="person-tag">Student · Economics</div>
         <div class="person-name">Gabby Folson</div>
         <div class="person-blurb">Chosen as the Deese College's nominee for NC A&amp;T's University Award for Academic Excellence, which goes to one senior per college for academic excellence, leadership and service, with a 4.0 GPA. She now serves as vice president of the Aggie Economic Association.</div>
       </div>
@@ -1113,7 +1113,6 @@
     <div class="alumni-lead">
       <img src="IMAGES/2026-homecoming/sidnee%20moore.jpg" alt="Sidnee Moore" class="person-photo" />
       <div>
-        <div class="person-tag">Economics · Class of 2026</div>
         <div class="person-name">Sidnee Moore '26</div>
         <div class="person-blurb">Took first place at the Undergraduate and Graduate Research &amp; Creativity Symposium for research with Dr. Luba Kurkalova, then graduated in May with a minor in finance. She now works as a Business Financial Analyst on the Investment Banking team at Jefferies, and has already earned her SIE, Series 79 and Series 63 licenses.</div>
       </div>
@@ -1201,7 +1200,7 @@
         <div class="event-date">Oct<br/>30</div>
         <div class="event-info">
           <strong>Deese College Cookout</strong>
-          Friday, 11 a.m.–3 p.m. on the Merrick Hall Lawn; food service begins at 11:30 a.m., and the Deese College Update follows at 1 p.m. in the Merrick Hall Auditorium. Pre-sold food tickets are gone, but a limited number of walk-up tickets will be available on the day. Packing for the trip? Bring a new business clothing item for the Deese College Style Studio, which outfits our students.
+          Friday, 11 a.m.–3 p.m. on the Merrick Hall Lawn; food service begins at 11:30 a.m., and the Deese College Update follows at 1 p.m. in the Merrick Hall Auditorium. Pre-sold food tickets are gone, but a limited number of walk-up tickets will be available on the day. 
         </div>
       </li>
       <li>
@@ -1237,7 +1236,7 @@
       1601 E. Market Street · Greensboro, NC 27411<br/>
       ncat.edu/cobe/academic-departments/economics
     </div>
-    <div class="footer-editor">Editor: Alfredo Romero</div>
+    <div class="footer-editor">Editor: Dr. Alfredo Romero</div>
     <div class="footer-links">
       <a href="https://www.linkedin.com/company/economics-ncat/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       <a href="https://macroinsights.github.io/piedmont-triad-aei/" target="_blank" rel="noopener noreferrer">Piedmont Triad AEI</a>
